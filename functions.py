@@ -27,3 +27,22 @@ print("result1:", result1)
 
 result2 = greeting('Mason')
 print("result2:", result2)
+
+
+print("====== Keyword va Default argumentlari ======")
+# DEFINE
+
+
+def give_greet(name, age=30):
+    print("give_greet is executed")
+    return f"Hi {name} are you really {age} yars old ?"
+
+
+# CALL
+result3 = give_greet(name="Mark", age=22)
+print("result3:", result3)
+
+result4 = give_greet("Joni")
+print("result4:", result4)
+
+print("====== Scope ======")
