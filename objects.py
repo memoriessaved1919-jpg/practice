@@ -26,3 +26,21 @@ print(type(math))
 
 result1 = math.ceil(98.7)  # CALL
 print("resulrt1:", result1)
+
+
+print("===== Error handling system =====")
+car_dict = dict(name="tayota", year=2026, electric="True")
+
+
+try:
+    print("passed here")
+    result = car_dict.speed
+    print(f"result:", result)
+except KeyError as err:
+    print("No origin state property found", err)
+except AttributeError as err:
+    print("No origin state property found", err)
+else:
+    print("executed successfully without errors")
+finally:
+    print("Final closing logic")
