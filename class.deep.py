@@ -1,3 +1,13 @@
+'''CLASS deep diving
+    (1) ENCAPSULATION <
+    (2) INHERITENCE
+    (3) POLIMORPHISM
+'''
+
+print("===== ENCAPSULATION =====")
+# ENCAPSULATION > public __private _protected
+
+
 class Account():
     description = "The class makes bank accounts"
 
