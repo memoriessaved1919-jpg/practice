@@ -32,6 +32,9 @@ class Dog(Animal):
     def protect(self):
         print("Yes, I can protect you!")
 
+    def make_voice(self):
+        print(f"the {self.name} says:  {self.sound}")
+
 
 class Cat(Animal):
     def __init__(self, name, sound, voice):
@@ -79,3 +82,23 @@ print(Dog.description)
 
 print(dog.voice, fish.voice)
 print("status:", fish._status)
+
+
+print("===== POLIMORPHISM =====")
+
+dog.make_voice()
+cat.make_voice()
+
+print("-----")
+# fish > Fish > Animal > object
+a = isinstance(fish, Fish)
+b = isinstance(fish, Animal)
+print(f"result:", (a))
+c = isinstance(fish, object)
+result = a and b and c
+print(f"the result:, {result}")
+
+# Fish > Animal > object
+data1 = issubclass(Fish, Animal)
+data2 = issubclass(Animal, object)
+print("data:", data1, data2)
