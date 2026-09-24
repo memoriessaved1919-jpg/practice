@@ -1,7 +1,7 @@
 '''CLASS deep diving
-    (1) ENCAPSULATION
-    (2) INHERITENCE <
-    (3) POLIMORPHISM <
+    (1) ENCAPSULATION - ichkarida yashirish va himoyalash
+    (2) INHERITENCE - meros olish
+    (3) POLIMORPHISM - bir nom, har xil shakl
 '''
 
 print("===== INHERITENCE =====")
