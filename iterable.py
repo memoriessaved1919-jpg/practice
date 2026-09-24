@@ -1,4 +1,5 @@
 print("===== Iterable objects & RANGE =====")
+# Iterable objects > string, dict, turple, list, range, map, filter
 
 range_obj = range(3)
 print("range_obj", range_obj)
